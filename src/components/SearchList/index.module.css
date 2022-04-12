@@ -1,0 +1,32 @@
+.searchMain{
+    height: auto;
+}
+.searchMain ul{
+    height: auto;
+    float: left;
+    padding:10px;
+}
+.li {
+    line-height: 2rem;
+    float:left;
+    width:120px;
+    height: 140px;
+    list-style: none;
+    vertical-align: middle;
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid #666666;
+    margin:1rem;
+}
+.img{
+    text-align: center;
+}
+.name{
+    width: 120px;
+    clear: both;
+    overflow: hidden;/**隐藏超出的内容**/
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    clear: both;
+}
+

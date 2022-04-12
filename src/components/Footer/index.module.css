@@ -1,0 +1,8 @@
+.footer{
+    color:black;
+    text-align: center;
+    margin-top: 3rem;
+}
+.footer span,label{
+    margin: 2rem;
+}

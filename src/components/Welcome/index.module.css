@@ -1,0 +1,17 @@
+.welcome{
+   text-align: center;
+}
+.welcome input[type="text"]{
+    width:80%;
+    height:35px;
+    padding-left:1%;
+    margin-bottom: 20px;
+    margin-top:10px;
+}
+.welcome ul{
+    list-style:none;
+    text-align: left;
+    width:100%;
+    margin: 0;
+    padding:0
+}
