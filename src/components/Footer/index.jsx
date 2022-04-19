@@ -29,7 +29,8 @@ export default class Footer extends Component{
                     </label>
                     <span>已完成 {doneCount} </span> / <span>全部 {todos.length}</span>
 
-                    <span><button onClick={this.handleClearAllDone}>清除已完成任务</button></span>
+                    <span>
+                        <button onClick={this.handleClearAllDone}>清除已完成任务</button></span>
                 </div>
                 
                 <h5>copy right react</h5>

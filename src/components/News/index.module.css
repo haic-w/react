@@ -1,0 +1,14 @@
+.newslist{
+    font-size:1rem !important;
+    background-color: none !important;
+    line-height: 3rem;
+}
+.news ul{
+    background-color: none !important;
+    list-style: none;
+}
+
+.news ul li{
+    width: 100%;
+    clear: both;
+}

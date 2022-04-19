@@ -1,12 +1,15 @@
 
 import {Component} from "react"
 
+
 import Hello from '../Hello'
 import Welcome from '../Welcome'
 import Footer from '../Footer'
 
+
 import {nanoid} from 'nanoid'
 import MainCss from './index.module.css'
+
 
 export default class Main extends Component{
     //状态在哪里，操作状态的方法就在哪里
@@ -61,10 +64,15 @@ export default class Main extends Component{
     render(){
         return (
             <div>
-                <div className='header'><Hello /></div>
+                <div className='header'>
+                    <Hello />
+                </div>
                 <div className={MainCss.main}>
-                    <Welcome todos={this.state.todos} addTodo={this.addTodo} updateTodo={this.updateTodo} delTodo={this.delTodo}/></div>
-                <div className='footer'><Footer todos={this.state.todos} checkAllTodo={this.checkAllTodo} clearAllDone={this.clearAllDone}/></div>
+                    <Welcome todos={this.state.todos} addTodo={this.addTodo} updateTodo={this.updateTodo} delTodo={this.delTodo}/>
+                </div>
+                <div className='footer'>
+                    <Footer todos={this.state.todos} checkAllTodo={this.checkAllTodo} clearAllDone={this.clearAllDone}/>
+                </div>
             </div>
         )
     }

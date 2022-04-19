@@ -1,0 +1,13 @@
+.person{
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+.person div{
+    line-height: 3rem;
+    height: 3rem;
+}
+
+.person input{
+    width:80%;
+}

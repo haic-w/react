@@ -3,6 +3,7 @@ import {Component} from 'react'
 import SearchList from '../SearchList'
 import SearchHeadCss from './index.module.css'
 import axios from 'axios'
+import { Button ,Input} from 'antd'
 
 export default class SearchHead extends Component{
     search = ()=>{
@@ -74,10 +75,9 @@ export default class SearchHead extends Component{
             <div>
                 <p>Search Github Users</p>
                 {/* <input ref="keyword" className={SearchHeadCss.input} type="text" placeholder="enter the name you search" /> */}
-                <input ref={c=>this.keyword = c} className={SearchHeadCss.input} type="text" placeholder="enter the name you search" />
                 
-                <button onClick={this.search}>axios-Search</button>
-               
+                <Input ref={c=>this.keyword = c} className={SearchHeadCss.input} type="text" placeholder="enter the name you search" />
+                <Button  onClick={this.search} type="primary">Axios-Search</Button>
             </div>
         )
     }

@@ -6,6 +6,7 @@ export default class Hello extends Component{
     render(){
         return (
             <div className={HelloCss.App}>
+                <p>&nbsp;</p>
                 <h1>hello word !!!</h1>
             </div>
         )
